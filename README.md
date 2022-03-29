@@ -39,3 +39,18 @@ locally,
 ```
 python main.py
 ```
+
+## Commands
+```
+discord message format:
+  -nb <command>
+commands:
+  play <url>
+    joins discord call if not already connected and plays audio from specified url.
+  stop
+    stops the current song, effectively quitting out of what it was doing.
+  pause
+    will pause and unpause currently playing audio.
+  dc
+    disconnect from active channel
+```
