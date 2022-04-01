@@ -1,5 +1,5 @@
 # nick-bot
-Controling a VM using a discord bot.
+A Discord bot to play music, prompt warm up questions, and track loot for role-playing games.
 
 ## Setup
 #### virtual environment
