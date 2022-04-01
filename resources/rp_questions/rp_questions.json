@@ -1,0 +1,7 @@
+{
+  "rows" : [
+    { "prompt": "If your character wasn't an adventurer, what livelihood would they lead?" },
+    { "prompt": "Who in the party would your character trust the most with their life?" },
+    { "prompt": "What are your character's core moral beliefs?" }
+  ]
+}

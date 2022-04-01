@@ -4,7 +4,7 @@ import discord
 from discord import FFmpegPCMAudio
 from discord.ext import commands
 
-from youtube_helper import search
+from helpers.youtube import search
 
 FFMPEG_OPTS = {
   'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5',
@@ -13,10 +13,9 @@ FFMPEG_OPTS = {
 
 class YoutubeCog(commands.Cog):
   def __init__(self, bot):
-    '''constructor for Bot class
+    '''constructor for YoutubeCog class
     Params:
-        token (str): private token for the bot, as recognized by Discord
-        guild (str): ID of discord server
+        bot ():
     '''
 
     self.bot = bot
